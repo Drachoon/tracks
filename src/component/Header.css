@@ -1,0 +1,10 @@
+/* 
+    Created on : 31 мая 2021 г., 21:19:37
+    Author     : drachoon
+*/
+.header_tools {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;    
+}
