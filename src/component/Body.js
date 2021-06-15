@@ -1,3 +1,4 @@
+import classes from './Body.module.css';
 import Info from './Info.js';
 import Career from './Career.js';
 

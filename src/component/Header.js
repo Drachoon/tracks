@@ -1,13 +1,13 @@
-import './Header.css';
+import classes from './Header.module.css';
 
 function Header() {
     return (
         <header>
-            <ul className="header_tools">
+            <ul className={classes.header_tools}>
                 <li>
-                    <a className="logo">Tracks</a>
+                    <a className={classes.logo}>Tracks</a>
                 </li>
-                <li className="right">
+                <li className={classes.right}>
                     <a href="#">Drachoon</a>
                 </li>
             </ul>

@@ -2,6 +2,9 @@
     Created on : 31 мая 2021 г., 21:19:37
     Author     : drachoon
 */
+header {
+    flex: 0 0 auto;
+}
 .header_tools {
     display: flex;
     justify-content: space-between;
