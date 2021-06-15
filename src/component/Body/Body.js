@@ -1,6 +1,6 @@
 import classes from './Body.module.css';
-import Info from './Info.js';
-import Career from './Career.js';
+import Info from './Info/Info';
+import Career from './Career/Career';
 
 function Body() {
     return (
