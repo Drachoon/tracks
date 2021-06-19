@@ -1,22 +1,16 @@
 import classes from './Career.module.css';
 
-function Career() {
+import WorkPlace from './WorkPlace/WorkPlace';
+import YearCutoff from './YearCutoff/YearCutoff';
+
+const Career = () => {
     return (
         <section className={classes.сareer}>
             <h2>Карьера</h2>
-            <div className={classes.workPlace}>
-                <h3>Фрилансер</h3>
-            </div>
-            <div className={classes.time}>2019</div>
-            <div className={classes.workPlace}>
-                <h3>Олатойз</h3>
-                <p>Оператор лазерного станка ЧПУ</p>
-            </div>
-            <div className={classes.workPlace}>
-                <h3>КБ "Фрагма"</h3>
-                <p>Рабочий участка сборки штанг</p>
-                <p>Монтаж печатных плат</p>
-            </div>
+            <WorkPlace firm="Фрилансер" position="web-программист" description="Full-stack, Diafan, 1С-Битрикс" />
+            <YearCutoff year="2019" />
+            <WorkPlace firm="Олатойз" position="Оператор лазерного станка ЧПУ" />
+            <WorkPlace firm="КБ 'Фрагма'" position="Cборщик штанг, Пайщик печатных плат, Сборщик рамок" />
         </section>
     );
 }

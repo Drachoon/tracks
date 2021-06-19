@@ -1,8 +1,8 @@
 import classes from './Body.module.css';
-import Info from './Info/Info';
-import Career from './Career/Career';
+import Info from '../Info/Info';
+import Career from '../Career/Career';
 
-function Body() {
+const Body = () => {
     return (
         <article>
             <Info />

@@ -1,6 +1,6 @@
 import classes from './Header.module.css';
 
-function Header() {
+const Header = () => {
     return (
         <header>
             <ul className={classes.header_tools}>
