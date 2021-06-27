@@ -5,7 +5,10 @@ const Main_menu = () => {
     return (
         <nav>
             <a href="profile">Профиль</a> &nbsp;
-            <a href="messenger">Сообщения</a>
+            <a>События</a> &nbsp;
+            <a href="messenger">Сообщения</a> &nbsp;
+            <a>Друзья</a> &nbsp;
+            <a>Сообщества</a>
         </nav>
     )
 }
