@@ -3,3 +3,7 @@
     Author     : drachoon
 */
 
+.info {
+    display: flex;
+    justify-content: space-between;
+}
