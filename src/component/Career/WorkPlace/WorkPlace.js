@@ -1,3 +1,4 @@
+import React from 'react';
 import classes from './WorkPlace.module.css';
 
 const WorkPlace = (props) => {

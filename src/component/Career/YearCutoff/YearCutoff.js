@@ -1,3 +1,4 @@
+import React from 'react';
 import classes from './YearCutoff.module.css';
 
 const YearCutoff = (props) => {

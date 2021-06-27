@@ -1,5 +1,5 @@
+import React from 'react';
 import classes from './Career.module.css';
-
 import WorkPlace from './WorkPlace/WorkPlace';
 import YearCutoff from './YearCutoff/YearCutoff';
 

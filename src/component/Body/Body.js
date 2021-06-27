@@ -1,12 +1,13 @@
+import React from 'react';
 import classes from './Body.module.css';
-import Info from '../Info/Info';
-import Career from '../Career/Career';
+import Profile from '../Profile/Profile';
+import Messenger from '../Messenger/Messenger';
 
 const Body = () => {
     return (
         <article>
-            <Info />
-            <Career />
+            {/*<Profile />*/}
+            <Messenger />
         </article>
     );
 }
