@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from './Messenger.module.css';
 
-
 const Messenger = () => {
     return (
         <div>
