@@ -2,4 +2,12 @@
     Created on : 27 июн. 2021 г., 20:39:05
     Author     : drachoon
 */
-
+.main_nav a {
+    text-decoration: none;
+}
+.main_nav a:visited {
+    color: #000;
+}
+a.active {
+    text-decoration: underline;
+}
